@@ -1,0 +1,2 @@
+Disallow: /api.gbaski.io/
+Sitemap: https://gbaski.io/sitemap.xml

@@ -1,0 +1,9 @@
+sass --watch scss/style.scss css/style.css
+sass --watch scss:css
+
+cleancss -o assets/css/desktop.min.css assets/css/desktop.css &&
+cleancss -o assets/css/tablet.min.css assets/css/tablet.css &&
+cleancss -o assets/css/phone.min.css assets/css/phone.css
+
+
+live-server --host=gbaski.tasc.web

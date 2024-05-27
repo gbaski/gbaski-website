@@ -1,0 +1,97 @@
+header{
+
+  nav{
+    background: transparent!important;
+
+
+    button.navbar-toggler {
+
+      border: none;
+  }
+
+  .navbar-toggler-icon {
+      background-image: url(./../img/menu.svg)!important;
+    }
+
+  }
+
+  nav ul{
+
+    text-align: center;
+    list-style-type: none;
+
+
+    li{
+
+      display: inline;
+      padding: .5rem 1rem;
+
+      a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        color: #7e81b0;
+
+        &.active{
+
+          color: #fb15a6!important;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+
+  .logo{
+    width: 3rem;
+    height: auto;
+  }
+
+}
+
+%hero-shared {
+
+  background-size: contain;
+
+
+  article.value-proposition{
+
+    padding: 0 1rem;
+
+    h1{
+
+      color: #090b27;
+      font-size: 2.3rem;
+      font-weight: bold;
+      line-height: 3.3rem;
+
+      span{
+
+        display: block;
+        font-size: 1rem;
+        margin-top: 30px;
+
+      }
+    }
+
+    p{
+      padding: 1rem 0;
+      font-size: 1.3rem;
+      line-height: 50px;
+    }
+
+    em{
+      //color: #090b27;
+      //font-size: 1rem;
+      //font-weight: 400;
+    }
+
+  }
+
+  img{
+    width: 80%;
+    height: auto;
+  }
+
+}
